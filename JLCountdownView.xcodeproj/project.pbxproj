@@ -21,6 +21,7 @@
 		981F0F63197EB40A00CB4BC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 981F0F61197EB40A00CB4BC6 /* InfoPlist.strings */; };
 		981F0F65197EB40A00CB4BC6 /* JLCountdownViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 981F0F64197EB40A00CB4BC6 /* JLCountdownViewTests.m */; };
 		981F0F70197EB42000CB4BC6 /* JLCountdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 981F0F6F197EB42000CB4BC6 /* JLCountdownView.m */; };
+		981F0F73197F2CAF00CB4BC6 /* JLCDV.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981F0F72197F2CAF00CB4BC6 /* JLCDV.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		981F0F64197EB40A00CB4BC6 /* JLCountdownViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLCountdownViewTests.m; sourceTree = "<group>"; };
 		981F0F6E197EB42000CB4BC6 /* JLCountdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCountdownView.h; sourceTree = "<group>"; };
 		981F0F6F197EB42000CB4BC6 /* JLCountdownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCountdownView.m; sourceTree = "<group>"; };
+		981F0F72197F2CAF00CB4BC6 /* JLCDV.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = JLCDV.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				981F0F5E197EB40A00CB4BC6 /* JLCountdownViewTests */,
 				981F0F38197EB40A00CB4BC6 /* Frameworks */,
 				981F0F37197EB40A00CB4BC6 /* Products */,
+				981F0F71197F2CAF00CB4BC6 /* Screenshots */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +155,14 @@
 				981F0F61197EB40A00CB4BC6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		981F0F71197F2CAF00CB4BC6 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				981F0F72197F2CAF00CB4BC6 /* JLCDV.gif */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			files = (
 				981F0F52197EB40A00CB4BC6 /* Images.xcassets in Resources */,
 				981F0F44197EB40A00CB4BC6 /* InfoPlist.strings in Resources */,
+				981F0F73197F2CAF00CB4BC6 /* JLCDV.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
