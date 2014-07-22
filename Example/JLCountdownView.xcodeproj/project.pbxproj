@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		981F0F3A197EB40A00CB4BC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981F0F39197EB40A00CB4BC6 /* Foundation.framework */; };
+		981F0F3C197EB40A00CB4BC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981F0F3B197EB40A00CB4BC6 /* CoreGraphics.framework */; };
+		981F0F3E197EB40A00CB4BC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981F0F3D197EB40A00CB4BC6 /* UIKit.framework */; };
+		981F0F44197EB40A00CB4BC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 981F0F42197EB40A00CB4BC6 /* InfoPlist.strings */; };
+		981F0F46197EB40A00CB4BC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 981F0F45197EB40A00CB4BC6 /* main.m */; };
+		981F0F4A197EB40A00CB4BC6 /* JLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 981F0F49197EB40A00CB4BC6 /* JLAppDelegate.m */; };
+		981F0F50197EB40A00CB4BC6 /* JLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981F0F4F197EB40A00CB4BC6 /* JLViewController.m */; };
+		981F0F52197EB40A00CB4BC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981F0F51197EB40A00CB4BC6 /* Images.xcassets */; };
+		981F0F59197EB40A00CB4BC6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981F0F58197EB40A00CB4BC6 /* XCTest.framework */; };
+		981F0F5A197EB40A00CB4BC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981F0F39197EB40A00CB4BC6 /* Foundation.framework */; };
+		981F0F5B197EB40A00CB4BC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981F0F3D197EB40A00CB4BC6 /* UIKit.framework */; };
+		981F0F63197EB40A00CB4BC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 981F0F61197EB40A00CB4BC6 /* InfoPlist.strings */; };
+		981F0F65197EB40A00CB4BC6 /* JLCountdownViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 981F0F64197EB40A00CB4BC6 /* JLCountdownViewTests.m */; };
+		981F0F70197EB42000CB4BC6 /* JLCountdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 981F0F6F197EB42000CB4BC6 /* JLCountdownView.m */; };
+		981F0F73197F2CAF00CB4BC6 /* JLCDV.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981F0F72197F2CAF00CB4BC6 /* JLCDV.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		981F0F5C197EB40A00CB4BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 981F0F2E197EB40A00CB4BC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 981F0F35197EB40A00CB4BC6;
+			remoteInfo = JLCountdownView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		981F0F36197EB40A00CB4BC6 /* JLCountdownView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLCountdownView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		981F0F39197EB40A00CB4BC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		981F0F3B197EB40A00CB4BC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		981F0F3D197EB40A00CB4BC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		981F0F41197EB40A00CB4BC6 /* JLCountdownView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JLCountdownView-Info.plist"; sourceTree = "<group>"; };
+		981F0F43197EB40A00CB4BC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		981F0F45197EB40A00CB4BC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		981F0F47197EB40A00CB4BC6 /* JLCountdownView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JLCountdownView-Prefix.pch"; sourceTree = "<group>"; };
+		981F0F48197EB40A00CB4BC6 /* JLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLAppDelegate.h; sourceTree = "<group>"; };
+		981F0F49197EB40A00CB4BC6 /* JLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLAppDelegate.m; sourceTree = "<group>"; };
+		981F0F4E197EB40A00CB4BC6 /* JLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLViewController.h; sourceTree = "<group>"; };
+		981F0F4F197EB40A00CB4BC6 /* JLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLViewController.m; sourceTree = "<group>"; };
+		981F0F51197EB40A00CB4BC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		981F0F57197EB40A00CB4BC6 /* JLCountdownViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLCountdownViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		981F0F58197EB40A00CB4BC6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		981F0F60197EB40A00CB4BC6 /* JLCountdownViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JLCountdownViewTests-Info.plist"; sourceTree = "<group>"; };
+		981F0F62197EB40A00CB4BC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		981F0F64197EB40A00CB4BC6 /* JLCountdownViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLCountdownViewTests.m; sourceTree = "<group>"; };
+		981F0F6E197EB42000CB4BC6 /* JLCountdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCountdownView.h; sourceTree = "<group>"; };
+		981F0F6F197EB42000CB4BC6 /* JLCountdownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCountdownView.m; sourceTree = "<group>"; };
+		981F0F72197F2CAF00CB4BC6 /* JLCDV.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = JLCDV.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		981F0F33197EB40A00CB4BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981F0F3C197EB40A00CB4BC6 /* CoreGraphics.framework in Frameworks */,
+				981F0F3E197EB40A00CB4BC6 /* UIKit.framework in Frameworks */,
+				981F0F3A197EB40A00CB4BC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981F0F54197EB40A00CB4BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981F0F59197EB40A00CB4BC6 /* XCTest.framework in Frameworks */,
+				981F0F5B197EB40A00CB4BC6 /* UIKit.framework in Frameworks */,
+				981F0F5A197EB40A00CB4BC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		981F0F2D197EB40A00CB4BC6 = {
+			isa = PBXGroup;
+			children = (
+				981F0F3F197EB40A00CB4BC6 /* JLCountdownView */,
+				981F0F5E197EB40A00CB4BC6 /* JLCountdownViewTests */,
+				981F0F38197EB40A00CB4BC6 /* Frameworks */,
+				981F0F37197EB40A00CB4BC6 /* Products */,
+				981F0F71197F2CAF00CB4BC6 /* Screenshots */,
+			);
+			sourceTree = "<group>";
+		};
+		981F0F37197EB40A00CB4BC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				981F0F36197EB40A00CB4BC6 /* JLCountdownView.app */,
+				981F0F57197EB40A00CB4BC6 /* JLCountdownViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		981F0F38197EB40A00CB4BC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				981F0F39197EB40A00CB4BC6 /* Foundation.framework */,
+				981F0F3B197EB40A00CB4BC6 /* CoreGraphics.framework */,
+				981F0F3D197EB40A00CB4BC6 /* UIKit.framework */,
+				981F0F58197EB40A00CB4BC6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		981F0F3F197EB40A00CB4BC6 /* JLCountdownView */ = {
+			isa = PBXGroup;
+			children = (
+				981F0F48197EB40A00CB4BC6 /* JLAppDelegate.h */,
+				981F0F49197EB40A00CB4BC6 /* JLAppDelegate.m */,
+				981F0F4E197EB40A00CB4BC6 /* JLViewController.h */,
+				981F0F4F197EB40A00CB4BC6 /* JLViewController.m */,
+				981F0F51197EB40A00CB4BC6 /* Images.xcassets */,
+				981F0F6E197EB42000CB4BC6 /* JLCountdownView.h */,
+				981F0F6F197EB42000CB4BC6 /* JLCountdownView.m */,
+				981F0F40197EB40A00CB4BC6 /* Supporting Files */,
+			);
+			path = JLCountdownView;
+			sourceTree = "<group>";
+		};
+		981F0F40197EB40A00CB4BC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				981F0F41197EB40A00CB4BC6 /* JLCountdownView-Info.plist */,
+				981F0F42197EB40A00CB4BC6 /* InfoPlist.strings */,
+				981F0F45197EB40A00CB4BC6 /* main.m */,
+				981F0F47197EB40A00CB4BC6 /* JLCountdownView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		981F0F5E197EB40A00CB4BC6 /* JLCountdownViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				981F0F64197EB40A00CB4BC6 /* JLCountdownViewTests.m */,
+				981F0F5F197EB40A00CB4BC6 /* Supporting Files */,
+			);
+			path = JLCountdownViewTests;
+			sourceTree = "<group>";
+		};
+		981F0F5F197EB40A00CB4BC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				981F0F60197EB40A00CB4BC6 /* JLCountdownViewTests-Info.plist */,
+				981F0F61197EB40A00CB4BC6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		981F0F71197F2CAF00CB4BC6 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				981F0F72197F2CAF00CB4BC6 /* JLCDV.gif */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		981F0F35197EB40A00CB4BC6 /* JLCountdownView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981F0F68197EB40A00CB4BC6 /* Build configuration list for PBXNativeTarget "JLCountdownView" */;
+			buildPhases = (
+				981F0F32197EB40A00CB4BC6 /* Sources */,
+				981F0F33197EB40A00CB4BC6 /* Frameworks */,
+				981F0F34197EB40A00CB4BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLCountdownView;
+			productName = JLCountdownView;
+			productReference = 981F0F36197EB40A00CB4BC6 /* JLCountdownView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		981F0F56197EB40A00CB4BC6 /* JLCountdownViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981F0F6B197EB40A00CB4BC6 /* Build configuration list for PBXNativeTarget "JLCountdownViewTests" */;
+			buildPhases = (
+				981F0F53197EB40A00CB4BC6 /* Sources */,
+				981F0F54197EB40A00CB4BC6 /* Frameworks */,
+				981F0F55197EB40A00CB4BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				981F0F5D197EB40A00CB4BC6 /* PBXTargetDependency */,
+			);
+			name = JLCountdownViewTests;
+			productName = JLCountdownViewTests;
+			productReference = 981F0F57197EB40A00CB4BC6 /* JLCountdownViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		981F0F2E197EB40A00CB4BC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Second Wind, LLC";
+				TargetAttributes = {
+					981F0F56197EB40A00CB4BC6 = {
+						TestTargetID = 981F0F35197EB40A00CB4BC6;
+					};
+				};
+			};
+			buildConfigurationList = 981F0F31197EB40A00CB4BC6 /* Build configuration list for PBXProject "JLCountdownView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 981F0F2D197EB40A00CB4BC6;
+			productRefGroup = 981F0F37197EB40A00CB4BC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				981F0F35197EB40A00CB4BC6 /* JLCountdownView */,
+				981F0F56197EB40A00CB4BC6 /* JLCountdownViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		981F0F34197EB40A00CB4BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981F0F52197EB40A00CB4BC6 /* Images.xcassets in Resources */,
+				981F0F44197EB40A00CB4BC6 /* InfoPlist.strings in Resources */,
+				981F0F73197F2CAF00CB4BC6 /* JLCDV.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981F0F55197EB40A00CB4BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981F0F63197EB40A00CB4BC6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		981F0F32197EB40A00CB4BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981F0F4A197EB40A00CB4BC6 /* JLAppDelegate.m in Sources */,
+				981F0F50197EB40A00CB4BC6 /* JLViewController.m in Sources */,
+				981F0F70197EB42000CB4BC6 /* JLCountdownView.m in Sources */,
+				981F0F46197EB40A00CB4BC6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981F0F53197EB40A00CB4BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981F0F65197EB40A00CB4BC6 /* JLCountdownViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		981F0F5D197EB40A00CB4BC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 981F0F35197EB40A00CB4BC6 /* JLCountdownView */;
+			targetProxy = 981F0F5C197EB40A00CB4BC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		981F0F42197EB40A00CB4BC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				981F0F43197EB40A00CB4BC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		981F0F61197EB40A00CB4BC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				981F0F62197EB40A00CB4BC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		981F0F66197EB40A00CB4BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		981F0F67197EB40A00CB4BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		981F0F69197EB40A00CB4BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLCountdownView/JLCountdownView-Prefix.pch";
+				INFOPLIST_FILE = "JLCountdownView/JLCountdownView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		981F0F6A197EB40A00CB4BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLCountdownView/JLCountdownView-Prefix.pch";
+				INFOPLIST_FILE = "JLCountdownView/JLCountdownView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		981F0F6C197EB40A00CB4BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JLCountdownView.app/JLCountdownView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLCountdownView/JLCountdownView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JLCountdownViewTests/JLCountdownViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		981F0F6D197EB40A00CB4BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JLCountdownView.app/JLCountdownView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLCountdownView/JLCountdownView-Prefix.pch";
+				INFOPLIST_FILE = "JLCountdownViewTests/JLCountdownViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		981F0F31197EB40A00CB4BC6 /* Build configuration list for PBXProject "JLCountdownView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981F0F66197EB40A00CB4BC6 /* Debug */,
+				981F0F67197EB40A00CB4BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981F0F68197EB40A00CB4BC6 /* Build configuration list for PBXNativeTarget "JLCountdownView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981F0F69197EB40A00CB4BC6 /* Debug */,
+				981F0F6A197EB40A00CB4BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		981F0F6B197EB40A00CB4BC6 /* Build configuration list for PBXNativeTarget "JLCountdownViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981F0F6C197EB40A00CB4BC6 /* Debug */,
+				981F0F6D197EB40A00CB4BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 981F0F2E197EB40A00CB4BC6 /* Project object */;
+}
