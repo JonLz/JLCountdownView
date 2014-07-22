@@ -13,7 +13,6 @@
 		981F0F44197EB40A00CB4BC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 981F0F42197EB40A00CB4BC6 /* InfoPlist.strings */; };
 		981F0F46197EB40A00CB4BC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 981F0F45197EB40A00CB4BC6 /* main.m */; };
 		981F0F4A197EB40A00CB4BC6 /* JLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 981F0F49197EB40A00CB4BC6 /* JLAppDelegate.m */; };
-		981F0F4D197EB40A00CB4BC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981F0F4B197EB40A00CB4BC6 /* Main.storyboard */; };
 		981F0F50197EB40A00CB4BC6 /* JLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981F0F4F197EB40A00CB4BC6 /* JLViewController.m */; };
 		981F0F52197EB40A00CB4BC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981F0F51197EB40A00CB4BC6 /* Images.xcassets */; };
 		981F0F59197EB40A00CB4BC6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981F0F58197EB40A00CB4BC6 /* XCTest.framework */; };
@@ -21,6 +20,7 @@
 		981F0F5B197EB40A00CB4BC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981F0F3D197EB40A00CB4BC6 /* UIKit.framework */; };
 		981F0F63197EB40A00CB4BC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 981F0F61197EB40A00CB4BC6 /* InfoPlist.strings */; };
 		981F0F65197EB40A00CB4BC6 /* JLCountdownViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 981F0F64197EB40A00CB4BC6 /* JLCountdownViewTests.m */; };
+		981F0F70197EB42000CB4BC6 /* JLCountdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 981F0F6F197EB42000CB4BC6 /* JLCountdownView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		981F0F47197EB40A00CB4BC6 /* JLCountdownView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JLCountdownView-Prefix.pch"; sourceTree = "<group>"; };
 		981F0F48197EB40A00CB4BC6 /* JLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLAppDelegate.h; sourceTree = "<group>"; };
 		981F0F49197EB40A00CB4BC6 /* JLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLAppDelegate.m; sourceTree = "<group>"; };
-		981F0F4C197EB40A00CB4BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		981F0F4E197EB40A00CB4BC6 /* JLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLViewController.h; sourceTree = "<group>"; };
 		981F0F4F197EB40A00CB4BC6 /* JLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLViewController.m; sourceTree = "<group>"; };
 		981F0F51197EB40A00CB4BC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +52,8 @@
 		981F0F60197EB40A00CB4BC6 /* JLCountdownViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JLCountdownViewTests-Info.plist"; sourceTree = "<group>"; };
 		981F0F62197EB40A00CB4BC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		981F0F64197EB40A00CB4BC6 /* JLCountdownViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLCountdownViewTests.m; sourceTree = "<group>"; };
+		981F0F6E197EB42000CB4BC6 /* JLCountdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCountdownView.h; sourceTree = "<group>"; };
+		981F0F6F197EB42000CB4BC6 /* JLCountdownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCountdownView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +115,11 @@
 			children = (
 				981F0F48197EB40A00CB4BC6 /* JLAppDelegate.h */,
 				981F0F49197EB40A00CB4BC6 /* JLAppDelegate.m */,
-				981F0F4B197EB40A00CB4BC6 /* Main.storyboard */,
 				981F0F4E197EB40A00CB4BC6 /* JLViewController.h */,
 				981F0F4F197EB40A00CB4BC6 /* JLViewController.m */,
 				981F0F51197EB40A00CB4BC6 /* Images.xcassets */,
+				981F0F6E197EB42000CB4BC6 /* JLCountdownView.h */,
+				981F0F6F197EB42000CB4BC6 /* JLCountdownView.m */,
 				981F0F40197EB40A00CB4BC6 /* Supporting Files */,
 			);
 			path = JLCountdownView;
@@ -231,7 +233,6 @@
 			files = (
 				981F0F52197EB40A00CB4BC6 /* Images.xcassets in Resources */,
 				981F0F44197EB40A00CB4BC6 /* InfoPlist.strings in Resources */,
-				981F0F4D197EB40A00CB4BC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +253,7 @@
 			files = (
 				981F0F4A197EB40A00CB4BC6 /* JLAppDelegate.m in Sources */,
 				981F0F50197EB40A00CB4BC6 /* JLViewController.m in Sources */,
+				981F0F70197EB42000CB4BC6 /* JLCountdownView.m in Sources */,
 				981F0F46197EB40A00CB4BC6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,14 +283,6 @@
 				981F0F43197EB40A00CB4BC6 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		981F0F4B197EB40A00CB4BC6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				981F0F4C197EB40A00CB4BC6 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		981F0F61197EB40A00CB4BC6 /* InfoPlist.strings */ = {

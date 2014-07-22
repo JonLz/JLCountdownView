@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JLCountdownView.h"
 
-@interface JLViewController : UIViewController
+@interface JLViewController : UIViewController <JLCountdownViewDelegate>
 
 @end
