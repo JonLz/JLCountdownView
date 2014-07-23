@@ -1,6 +1,6 @@
 # JLCountdownView
 <p align="center"><img src="Screenshots/JLCDV.gif"/></p>
-<p>(Dropping animations not included!)</p>
+<p align="center">(Dropping animations not included!)</p>
 
 ### Project Details
 JLCountdownView is a UIView subclass that creates a customizable circular countdown timer with a simple pulsing animation.  The view is placed via a point with a specified radius.  Actions can be triggered via a delegate method once the timer has finished firing.
