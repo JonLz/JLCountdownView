@@ -12,6 +12,7 @@
 @interface JLViewController ()
 // CountdownView property and delegate method
 @property (nonatomic,strong) JLCountdownView *cdv;
+@property (nonatomic,strong) JLCountdownView *cdv2;
 - (void)countdownViewDidFinish:(JLCountdownView *)view;
 
 // Ball methods for some fun after the timer counts down
@@ -29,17 +30,15 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.cdv = [JLCountdownView countdownTimerInView:self.view];
     self.cdv.delegate = self;
-    [self.cdv start];
     
-    JLCountdownView *cdv = [JLCountdownView countdownTimerInView:self.view];
-    cdv.point = CGPointMake(200,200);
-    cdv.radius = 100;
-    cdv.circleColor = [UIColor blackColor];
-    cdv.textColor = [UIColor whiteColor];
-    cdv.textFont = [UIFont systemFontOfSize:72];
-    cdv.time = 10;
-    cdv.timeInterval = 2;
-    [cdv start];
+    self.cdv2 = [JLCountdownView countdownTimerInView:self.view];
+    self.cdv2.point = CGPointMake(150,50);
+    self.cdv2.radius = 75;
+    self.cdv2.circleColor = [UIColor blackColor];
+    self.cdv2.textColor = [UIColor whiteColor];
+    self.cdv2.textFont = [UIFont systemFontOfSize:72];
+    self.cdv2.time = 10;
+    self.cdv2.timeInterval = 2;
     
     int width = 50;
     int screenHeight = self.view.bounds.size.height;
@@ -68,6 +67,7 @@
 - (void)start
 {
     [self.cdv start];
+    [self.cdv2 start];
 }
 
 - (void)pause
