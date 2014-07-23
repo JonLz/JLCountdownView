@@ -23,7 +23,7 @@ In place default timer at the center of the screen with a 3 second countdown.
     [cdv start];
  ````
  
- Slightly more customized timer
+Slightly more customized timer
  ```objective-c
     JLCountdownView *cdv = [JLCountdownView countdownTimerAtPoint:CGPointMake(100, 100) radius:100 time:5];
     [self.view addSubview:cdv];
@@ -64,25 +64,28 @@ The timer controls support starting (resuming), pausing, and restarting.  Create
  ````
  
 ####Constructors
- ```objective-c
- Three constructors are provided for easily creating a new view and positioning/sizing it.
-// Constructor for a centered in-place timer counting down from 3 with an orange circle and white text
-+ (instancetype)countdownTimerInView:(UIView *)view;
+Three constructors are provided for easily creating a new view and positioning/sizing it.
+```objective-c
+    // Constructor for a centered in-place timer counting down from 3 with an orange circle and white text
+    + (instancetype)countdownTimerInView:(UIView *)view;
 
-// Custom constructor to set the point and size of the circle (and time (optional))
-+ (instancetype)countdownTimerAtPoint:(CGPoint)point radius:(CGFloat)radius;
-+ (instancetype)countdownTimerAtPoint:(CGPoint)point radius:(CGFloat)radius time:(NSInteger)time;
+    // Custom constructor to set the point and size of the circle (and time (optional))
+    + (instancetype)countdownTimerAtPoint:(CGPoint)point radius:(CGFloat)radius;
+    + (instancetype)countdownTimerAtPoint:(CGPoint)point radius:(CGFloat)radius time:(NSInteger)time;
  ````
  
 ####Timer finish and delegate handling
 
 First, set the delegate of the timer label:
+
 `timer.delegate = self;`
 
 Next, implement the `JLCountdownViewDelegate` protocol in your controller:
+
 `@interface ViewController : UIViewController<JLCountdownViewDelegate>`
 
 Finally, implement the delegate method:
+
 `countdownViewDidFinish:`
 
  ```objective-c 
