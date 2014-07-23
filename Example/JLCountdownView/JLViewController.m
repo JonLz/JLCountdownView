@@ -26,9 +26,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     self.cdv = [JLCountdownView countdownTimerInView:self.view];
     self.cdv.delegate = self;
+    [self.cdv start];
+    
+    JLCountdownView *cdv = [JLCountdownView countdownTimerInView:self.view];
+    cdv.point = CGPointMake(200,200);
+    cdv.radius = 100;
+    cdv.circleColor = [UIColor blackColor];
+    cdv.textColor = [UIColor whiteColor];
+    cdv.textFont = [UIFont systemFontOfSize:72];
+    cdv.time = 10;
+    cdv.timeInterval = 2;
+    [cdv start];
     
     int width = 50;
     int screenHeight = self.view.bounds.size.height;
