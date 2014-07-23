@@ -58,13 +58,14 @@ The total amount of time as well as the time interval can be changed via propert
 ####Timer Controls
 The timer controls support starting (resuming), pausing, and restarting.  Create the object and call these methods:
  ```objective-c
-	- (void)start;
-	- (void)pause;
-	- (void)restart;
+    - (void)start;
+    - (void)pause;
+    - (void)restart;
  ````
  
 ####Constructors
  ```objective-c
+ Three constructors are provided for easily creating a new view and positioning/sizing it.
 // Constructor for a centered in-place timer counting down from 3 with an orange circle and white text
 + (instancetype)countdownTimerInView:(UIView *)view;
 
@@ -76,15 +77,12 @@ The timer controls support starting (resuming), pausing, and restarting.  Create
 ####Timer finish and delegate handling
 
 First, set the delegate of the timer label:
-
 `timer.delegate = self;`
 
 Next, implement the `JLCountdownViewDelegate` protocol in your controller:
-
 `@interface ViewController : UIViewController<JLCountdownViewDelegate>`
 
 Finally, implement the delegate method:
-
 `countdownViewDidFinish:`
 
  ```objective-c 
